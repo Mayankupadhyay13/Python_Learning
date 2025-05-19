@@ -22,4 +22,4 @@ print(input3+input4)# return 3 here for same input 1 & 2
 
 input5 = float(input('Enter float1 here: '))
 input6 = float(input('Enter float2 here: '))
-print(input5+input6)
+print(input5+input6)# return  1.20 + 2.20 -> 3.4000000000000004
