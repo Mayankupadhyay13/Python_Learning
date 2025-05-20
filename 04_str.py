@@ -7,7 +7,7 @@ c = '''String'''
 input1 = input('Enter the input here:') # to use varibale name in string make it like this using f in start
 print(f'good morning ,{input1}')
 
-### String slicing##### 
+### String slicing: --------- 
 '''A string in pyton can be sliced for getting part of that string'''
 name = 'Pythontutorial'
 sliced_string = name[0:4] # prints pyth
@@ -17,7 +17,7 @@ print(sliced_string)
 print(character1) # print t
 
 
-# Negative slicing#
+# Negative slicing; -----------
 char2 = name[-1]# print l
 print(char2)
 
@@ -26,7 +26,7 @@ print(name[:-1])#Pythontutoria (empty means start from last in negative basis)
 print(name[-6:])#torial (empty means index.length )
 
 
-# slicing with skip value
+# slicing with skip value: -------
 
 name2 = 'abcdefghijkL'
 print(name2[1:-1:2])# prints bdfhj skip value by 2 here
