@@ -80,4 +80,11 @@ print(set1.isdisjoint(set4))    # return true dont have similar values (disjoint
 #Note: -------
 print(20==20.0)                 #return true
 sett = { 20,20.0,'20'} # cal the len() it return 2here but its 3 why?
-print(len(sett))
+print(len(sett))        # return 2 , bcz python ckecks for values 
+
+# IMp: 
+'''Can you change the values inside a list which is contained in set's ?????????
+Ans : No, you can not have list as element in set bcz , set's elements in python canbe immutable and hashable.
+while list's are mutable and not hashable.
+'''
+
