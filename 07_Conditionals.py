@@ -17,3 +17,4 @@ elif(b==0):
     print ("Zero in not age")
 else:
     print("Below the age")
+    
