@@ -12,7 +12,7 @@
 '''
 
 ## Modules /comments/pip  ##
-# modules#   1. random module, os module, shu module etc...
+# modules#   1. random module, os module, SH util module etc...
 '''
 -> modules :     (DateTime, random etc.)
         A module is a set of code or functions, classes, objects or other_code with the.py extension.
