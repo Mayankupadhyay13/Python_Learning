@@ -37,6 +37,6 @@ print(b.name)
 
 class superKeyword(Company):
     def __init__(self):
-        super().anywork()
+        super().anywork()       # refering parentmethod using super keyword
         print('Super works ')
 c = superKeyword()

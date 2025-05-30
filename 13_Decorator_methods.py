@@ -65,11 +65,13 @@ Operators can be overloaded using the following methods:---
     __len__() -> used to set what upon calculating the length on object.
 '''
 class NUmbber:
-    def __init__(self,n):
-        self.n = n
+    def __init__(self,n):       # __add__ is a magic method that tells Python how to handle the (+) operator for your objects.
+        self.n = n              # When you write n + m, Python internally calls:  n.__add__(m)
 
-    def __add__(self,other):
-        return self.n + other.n
+    def __add__(self,other):    #Inside that method: -> self refers to the object on the left (n)
+        return self.n + other.n                  #  -> other refers to the object on the right (m) 
+    
+                                # So it returns n.n + m.n, which is 10 + 20
 n = NUmbber(10)
 m = NUmbber(20)
 print(n+m)   
