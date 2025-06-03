@@ -31,6 +31,20 @@ print(a)#8989
 
 # enumerate() function :-------
 
-li = [1,245,34,565]
-for index, item in enumerate(li):
-    print(f'item at index {index} is {item}')
+# enumerate () function adds counter to an iterable and retruns it.
+li = [1,245,34,565]                                     # item at index 0 is 1
+for index, item in enumerate(li):                       # item at index 1 is 245
+    print(f'item at index {index} is {item}')           # item at index 2 is 34
+                                                        # item at index 3 is 565
+
+# List Comprehension :-----
+# elegent way to create lists based on existing lists. 
+
+# example : lets i want to create list from existing list of squared elements..in fomal way like this
+mylist = [1,2,3,4,5]
+#squaredlist = []
+# for item in mylist:
+#     squaredlist.append(item*item)  instead this we cn make it with list comprehension
+
+squaredlist = [i*i for i in mylist]
+print(squaredlist)

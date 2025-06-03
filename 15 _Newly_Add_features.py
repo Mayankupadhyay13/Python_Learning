@@ -68,3 +68,11 @@ dict2 = {1 : '100', 2 : '200'}
 merged = dict1|dict2
 print(merged)
 print(dict1.get('a'))
+
+
+########## Now we can use multiple context manager in single with statement ###########
+# with(
+#     open('files.txt') as f1,
+#     open('poeam.txt') as f2
+# ):
+#     #any work read/write
