@@ -22,4 +22,19 @@ we can make an isolated environment '''
 
 '''
 
+# To work with python just write python in ps(powershell) and do anything like checking he versions of packages of diff modules,
+# ex: import pandas -> newline pandas.__version__ hit enter.
+
+# checking for both globally environment and virtual env also.
+#to deactivate the virtual setup write deactive.
+
+########### pip freeze command ______
+''' shows the all python packages installed in your environment along with the version '''
+
+########### pip freeze > requirements.txt__________
+''' if i want to write the all package info in particular file to need in work latter'''
+
+## go through with requirements.txt file one time 
+
+
 
